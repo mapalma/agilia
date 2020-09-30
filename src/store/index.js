@@ -34,7 +34,7 @@ export default new Vuex.Store({
       })
     },
     editUser(context, user) {
-      axios.put("https://reqres.in/api/users/" + user.id, user.name)
+      axios.put("https://reqres.in/api/users/" + user.id, {"name":user.name})
       .then((result) => {
         console.log('edited');
         console.log(result);

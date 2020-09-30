@@ -90,7 +90,4 @@ export default {
   }
 }
 
-ul {
-
-}
 </style>
